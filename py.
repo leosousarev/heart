@@ -1,0 +1,7 @@
+.def coração(tamanho):
+  coração = ""
+  for i in range(tamanho):
+    coração += " " * (tamanho - i) + "❤" * (2 * i + 1) + "\n"
+  return coração
+
+print(coração(5))
